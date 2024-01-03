@@ -10,7 +10,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>○ Creator : <a href='tg://user?id={OWNER_ID}'>This Person</a>\n○ Language : <code>Python3</code>\n○ Library : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio {__version__}</a>\n○ Source Code : <a href='https://github.com/MOGAMBO-XD/File-Sharing-Bot'>Click here</a>\n○ Channel : @Cybermusicproject\n○ Support Group : @CyberSupportGroup</b>",
+            text = f"<b>○ Tentang Bot Ini:\n@newviralkanbot Adalah Bot Telegram Untuk Menyimpan Postingan Atau File Yang Dapat Diakses Melalui Link Khusus.\n\n○ Creator : <a href='tg://user?id={OWNER_ID}'>klik disini</a>\n○ Suport by : <a href='@asupanmahasiswivip'>ASUPAN MAHASISWI ID</a>\n○ Join : <a href='@mahasiswiviralid'>MAHASISWI VIRAL ID</a>\n\n○ Endorse & Iklan Contact : <a href='@kgsawtivx'>CONTACT</a></b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
