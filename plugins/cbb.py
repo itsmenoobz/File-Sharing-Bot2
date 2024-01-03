@@ -10,7 +10,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>○ Tentang Bot Ini:\n@newviralkanbot Adalah Bot Telegram Untuk Menyimpan Postingan Atau File Yang Dapat Diakses Melalui Link Khusus.\n\n○ Creator : <a href='tg://user?id={OWNER_ID}'>klik disini</a>\n○ Join : <a href='@asupanmahasiswivip'>ASUPAN MAHASISWI ID</a>\n○ Join : <a href='@mahasiswiviralid'>MAHASISWI VIRAL ID</a>\n○ Endorse & Iklan Contact : <a href='@kgsawtivx'>Contact me</a></b>",
+            text = f"<b>○ Tentang Bot Ini:\n@newviralkanbot Adalah Bot Telegram Untuk Menyimpan Postingan Atau File Yang Dapat Diakses Melalui Link Khusus.\n\n○ Creator : <a href='tg://user?id={OWNER_ID}'>klik disini</a>\n○ Join : <a href='https://t.me/asupanmahasiswivip'>ASUPAN MAHASISWI ID</a>\n○ Join : <a href='https://t.me/mahasiswiviralid'>MAHASISWI VIRAL ID</a>\n○ Endorse & Iklan Contact : <a href='https://t.me/kgsawtivx'>Contact me</a></b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
