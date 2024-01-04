@@ -33,8 +33,8 @@ DB_NAME = os.environ.get("DATABASE_NAME", "Botbkp")
 
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002037950076"))
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002062736101"))
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002058293145"))
+FORCE_SUB_CHANNEL01 = int(os.environ.get("FORCE_SUB_CHANNEL01", "-1002062736101"))
+FORCE_SUB_CHANNEL02 = int(os.environ.get("FORCE_SUB_CHANNEL02", "-1002058293145"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
