@@ -29,11 +29,11 @@ DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Botbkp:Ayvklbj2eJD0ZfaA@c
 
 # Username CH & Group
 CHANNEL = os.environ.get("CHANNEL", "mahasiswiviralid,")
-GROUP = os.environ.get("GROUP", "viralmahasiswiid")
+CHANNEL2 = os.environ.get("CHANNEL2", "viralterbaru001")
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002037950076"))
-FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-1002040947573"))
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002062736101"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
